@@ -19,7 +19,7 @@ class App {
     middlewares() {
         this.app.use(cors());
         this.app.use(express.json());
-        this.app.use(responseMiddleware)
+        // this.app.use(responseMiddleware)
     }
 
     routes() {
