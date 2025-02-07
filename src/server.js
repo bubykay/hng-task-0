@@ -13,7 +13,7 @@ function keepAlive(url) {
     });
 }
 
-cron.schedule("*/5 * * * *", () => {
+cron.schedule("*/15 * * * *", () => {
   try {
     keepAlive(
       "https://hng-task-0-x9vo.onrender.com/api/info"
